@@ -1,0 +1,114 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.header{
+  margin: 50px auto 0 auto;
+  width: 500px;
+  height: 100%;
+  padding-bottom: 10px;
+}
+.header-title p{
+  font-weight: 600;
+  font-size: 22px;
+}
+.nav-link{
+  margin: 0 7px;
+  border: 1px solid black;
+  padding: 5px 15px;
+  color: black;
+  font-weight: 600;
+  text-decoration: none;
+}
+.nav-link:hover{
+  background-color: black;
+  color: white;
+}
+.active{
+  background-color: black;
+  color: white;
+}
+.list-book{
+  display: flex;
+  flex-wrap: wrap;
+  width: 600px;
+  margin: 0 auto;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+.book-item{
+  padding: 5px;
+  width: 42%;
+  height: 170px;
+  border: 1px solid silver;
+  margin: 0 10px 10px 10px;
+  border-radius: 5px;
+  -webkit-box-shadow: 8px 8px 8px 0px rgba(34, 60, 80, 0.2);
+  -moz-box-shadow: 8px 8px 8px 0px rgba(34, 60, 80, 0.2);
+  box-shadow: 8px 8px 8px 0px rgba(34, 60, 80, 0.2);
+}
+.book-item p{
+  text-align: left;
+  margin-left: 5px;
+}
+.book-buttons{
+  display: flex;
+  justify-content: space-around;
+}
+.book-buttons button{
+  width: 80px;
+  height: 30px;
+  border: 1px solid black;
+  background-color: white;
+  font-weight: 600;
+  border-radius: 3px;
+}
+.book-buttons button:hover{
+  background-color: black;
+  color: white;
+}
+.add-form{
+  padding:10px;
+  width: 300px;
+  margin: 0 auto;
+}
+.add-form button{
+  margin-top: 20px;
+  width: 100px;
+  height: 30px;
+  border: 1px solid ;
+  font-size: 18px;
+  background-color: white;
+  border-radius: 4px;
+  font-weight: 600;
+}
+.add-form button:hover{
+  background-color: black;
+  color: white;
+}
+.add-input{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.add-input label{
+  margin: 7px 0;
+  font-size: 20px;
+}
+.add-input input{
+  width: 100%;
+  height: 25px;
+  outline: none;
+  font-size: 18px;
+}
+
